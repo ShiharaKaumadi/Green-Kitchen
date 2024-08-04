@@ -1,9 +1,11 @@
 import Hero from "./components/Hero.jsx";
+import Navbar from "./components/Navbar.jsx";
 
 export default function App() {
     return (
-        <div>
+        <main className="overflow-y-hidden text-neutral-600 antialiased">
             <Hero/>
-        </div>
+            <Navbar/>
+        </main>
     )
 }
