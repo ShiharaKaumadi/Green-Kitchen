@@ -17,6 +17,14 @@ import menu1 from "../assets/Chicken Koththu.jpg"
 import menu2 from "../assets/nasi goreng.jpeg"
 import menu3 from "../assets/Egg Hoppers.jpeg"
 import menu4 from  "../assets/Mongolian Rice.jpg"
+import review1 from "../assets/review1.jpg"
+import review2 from "../assets/review2.jpg"
+import review3 from "../assets/review3.jpg"
+import review4 from "../assets/review4.jpg"
+import user1 from "../assets/user1.png"
+import user2 from "../assets/user2.png"
+import user3 from "../assets/user3.png"
+import user4 from "../assets/user4.png"
 
 export const LINKS = [
     {text:"Home", targetId:"home"},
@@ -117,6 +125,38 @@ export const TOPMENUS = [
         image:menu4,
         title:"Mongolian Rice",
         description: "Savor the bold and vibrant flavors of our Mongolian Rice, a dish where tender meats, fresh vegetables, and aromatic spices come together in perfect harmony. Each bite offers a delightful mix of textures and tastes, making it a feast for your senses. Let this delicious creation transport you to the heart of Asia!"
+    },
+]
+
+export const REVIEWS = [
+    {
+        image:user1 ,
+        text:"An amazing dining experience! The ambiance is cozy and welcoming, perfect for a relaxed meal. The food is exceptional—each dish is packed with rich flavors and beautifully presented. The staff are friendly and attentive, making the visit truly enjoyable. Highly recommend trying their signature dishes!",
+        user: "Yehani Wathsala",
+    },
+    {
+        image: user2,
+        text:"The best koththu I've ever had! The flavors are incredible, with perfectly balanced spices and fresh ingredients. The texture is spot-on, with just the right amount of crunch. The portion size is generous, and the service is top-notch. A must-visit for koththu lovers! ",
+        user:"Nirmala Ranasinghe",
+    },
+    {
+        image:user3,
+        text:"An exceptional dining experience! The restaurant's ambiance is warm and inviting, making it a great place to unwind. The customer service is outstanding—staff are friendly, attentive, and go above and beyond to ensure a delightful meal. The food is delicious and beautifully presented. Highly recommended!",
+        user:"Sudesh Anurudda",
+    },
+    {
+        image:user4,
+        text:"Fantastic flavors and amazing food! Each dish is a delightful blend of spices and fresh ingredients, bursting with taste in every bite. The variety on the menu offers something for everyone, and the presentation is top-notch. A true culinary delight that keeps you coming back for more!",
+        user4:"Lahiru Dissanayake",
+    }
+]
+
+export const CONTACT = [
+    {
+        value: "No: 123/6B, High Level Road, Maharagama",
+    },
+    {
+        value: "0745623451 | 0112274124",
     },
 ]
 

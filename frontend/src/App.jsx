@@ -5,6 +5,9 @@ import Dishes from "./components/Dishes.jsx";
 import About from "./components/About.jsx";
 import Mission from "./components/Mission.jsx";
 import Expertise from "./components/TopMenus.jsx";
+import TopMenus from "./components/TopMenus.jsx";
+import Reviews from "./components/Reviews.jsx";
+import Contacts from "./components/Contacts.jsx";
 
 export default function App() {
     return (
@@ -14,7 +17,9 @@ export default function App() {
             <Dishes/>
             <About/>
             <Mission/>
-            <Expertise/>
+            <TopMenus/>
+            <Reviews/>
+            <Contacts/>
         </main>
     )
 }
