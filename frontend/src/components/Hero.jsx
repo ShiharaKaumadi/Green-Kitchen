@@ -8,8 +8,8 @@ const Hero = () => {
             </div>
             <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent from-70% to-black">
                 <div className="relative z-20 flex h-screen flex-col justify-end pb-20">
-                    <h1 className="text-9xl font-bold text-white p-8">Green Kitchen</h1>
-                    <p className="text-4xl tracking-tighter text-white pl-14">Maharagama</p>
+                    <h1 className="text-5xl sm:text-4xl md:text-6xl lg:text-9xl font-bold text-white p-8">Green Kitchen</h1>
+                    <p className="text-2xl tracking-tighter text-white pl-14">Maharagama</p>
                 </div>
             </div>
         </section>

@@ -13,12 +13,16 @@ import dish12 from "../assets/parata.jpeg"
 import dish13 from "../assets/spagetti.jpg"
 import dish14 from "../assets/spicy mixed vegetable koththu.jpeg"
 import dish15 from "../assets/Vegetable Roti.jpg"
+import menu1 from "../assets/Chicken Koththu.jpg"
+import menu2 from "../assets/nasi goreng.jpeg"
+import menu3 from "../assets/Egg Hoppers.jpeg"
+import menu4 from  "../assets/Mongolian Rice.jpg"
 
 export const LINKS = [
     {text:"Home", targetId:"home"},
     {text:"About", targetId:"about"},
     {text:"Mission", targetId:"mission"},
-    {text:"Expertise", targetId:"expertise"},
+    {text:"Top Menus", targetId:"topMenus"},
     {text:"Review", targetId:"review"},
     {text:"Contact", targetId:"contact"},
 ];
@@ -85,5 +89,34 @@ export const DISHES = [
         description:"Carrot, Leeks, Onions, Potato"
     },
 
+]
+
+export const ABOUT = {
+    header:"Cooking with Love",
+    content:"Welcome to Green Kitchen, where we bring you an exquisite blend of traditional Sri Lankan flavors and contemporary culinary experiences. Located in the heart of Maharagama, Green Kitchen is a vibrant hub for food lovers seeking a unique dining experience."
+}
+
+export const TOPMENUS = [
+    {
+        image:menu1,
+        title:"Koththu",
+        description:"Try our koththu dishes. Treat yourself to a culinary adventure with our delicious koththu dishes—where every bite is a fusion of spices, textures, and unforgettable Sri Lankan flavors!"
+
+    },
+    {
+        image:menu2,
+        title:"Nasi Goreng",
+        description:"Embark on a culinary journey with our Nasi Goreng—a fragrant blend of fried rice, spices, and succulent toppings. Experience the perfect harmony of flavors in this beloved Indonesian dish!"
+    },
+    {
+        image:menu3,
+        title:"Egg Hoppers & Hoppers",
+        description: "Delight in the crispy perfection of our hoppers and egg hoppers. A Sri Lankan classic, these delicacies are the ultimate comfort food, blending crunchy edges with soft, flavorful centers. A must-try experience!"
+    },
+    {
+        image:menu4,
+        title:"Mongolian Rice",
+        description: "Savor the bold and vibrant flavors of our Mongolian Rice, a dish where tender meats, fresh vegetables, and aromatic spices come together in perfect harmony. Each bite offers a delightful mix of textures and tastes, making it a feast for your senses. Let this delicious creation transport you to the heart of Asia!"
+    },
 ]
 

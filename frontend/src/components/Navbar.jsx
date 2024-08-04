@@ -22,7 +22,7 @@ const Navbar = () => {
     }
     return (
         <nav className="fixed top-4 z-50 flex w-full flex-col items-center justify-center">
-            <div className="flex w-full items-center justify-between overflow-y-hidden p-4 backdrop-blur-lg lg:m-2 lg:w-[50rem] lg:rounded-full lg:shadow-lg">
+            <div className="flex w-full items-center justify-between overflow-y-hidden p-4 backdrop-blur-lg lg:m-2 lg:w-[80rem] lg:rounded-full lg:shadow-lg">
                 <img src={logo} alt="logo" width={20} h={20}/>
                 <div className="hidden space-x-6 lg:flex">
                     {LINKS.map((link, index)=>(
